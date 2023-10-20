@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body {
+  box-sizing: border-box;
+  background-color: #111827;
+  color: #f4f4f5;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.NavTab {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+.Heading1 {
+  text-align: center;
+  color: #d4d4d8;
+  text-shadow: 1px 1px 1px #f4f4f5;
+  transition: all 0.5s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.Heading1:hover {
+  color: #f4f4f5;
+  text-shadow: 1px 1px 1px #d4d4d8;
+  transition: all 0.5s ease-in-out;
+  font-size: 3.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Heading2 {
+  text-align: center;
+  color: #d4d4d8;
+  text-shadow: 1px 1px 1px #f4f4f5;
+}
+
+.Heading2:hover {
+  color: #f4f4f5;
+  text-shadow: 1px 1px 1px #d4d4d8;
+}
+
+.Heading3 {
+  text-align: center;
+  color: #d4d4d8;
+  text-shadow: 1px 1px 1px #f4f4f5;
+}
+
+.Heading3:hover {
+  color: #f4f4f5;
+  text-shadow: 1px 1px 1px #d4d4d8;
+}
+
+.Students {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  border: 1px solid #d4d4d8;
+  border-style: dotted;
+  border-radius: 1.2rem;
+  flex-flow: row;
+  /* flex-wrap: wrap; */
+}
+
+.IPPara {
+  text-align: center;
 }
