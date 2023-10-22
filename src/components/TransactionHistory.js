@@ -4,6 +4,15 @@ import { useTransactions } from "../contexts/TransactionsContext";
 function TransactionHistory() {
   const { transactions } = useTransactions();
 
+  if (!transactions.length) {
+    return (
+      <div>
+        <p>History will be displayed after transactions.</p>
+        <p>Get started by making your first transaction.</p>
+      </div>
+    );
+  }
+
   return (
     <div>
       <h2>Transaction History</h2>

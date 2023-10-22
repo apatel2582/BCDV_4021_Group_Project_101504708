@@ -26,6 +26,9 @@ function App() {
         <>
           <nav>
             <ul className="NavTab">
+            <li>
+                <Link to="/">Home</Link>
+              </li>
               <li>
                 <Link to="/transactions">Transactions</Link>
               </li>

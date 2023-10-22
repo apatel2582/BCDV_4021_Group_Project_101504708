@@ -14,7 +14,7 @@ function InitialPage() {
         <p className="IPPara">&</p>
         <p className="IPPara">
           <strong>Xiaogang Dong </strong>
-          <span> - 000000000</span>
+          <span> - 101492108</span>
         </p>
       </div>
     </div>
