@@ -61,3 +61,12 @@ body {
 .IPPara {
   text-align: center;
 }
+
+.icon-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Optional: You might want to add some space between the icon and the text */
+  gap: 8px;
+}
+
