@@ -7,17 +7,12 @@ import Transfer from "./components/Transfer";
 import Wallet from "./components/Wallet";
 import InitialPage from "./components/InitialPage";
 import { TransactionsProvider } from "./contexts/TransactionsContext";
-import { createSvgIcon } from '@mui/material/utils';
 import { Home as HomeIcon, Receipt as ReceiptIcon, Paid as PaidIcon, Wallet as WalletIcon } from '@mui/icons-material';
 
 import "./App.css";
 
 function App() {
   const [addresses, setAddresses] = useState([]);
-  const HomeIcon = createSvgIcon(
-    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />,
-    'Home',
-  );
 
   useEffect(() => {
     const generatedAddresses = [];
